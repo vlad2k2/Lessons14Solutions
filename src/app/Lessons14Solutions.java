@@ -13,12 +13,9 @@ public class Lessons14Solutions {
         PrintMessage.Message msg3 = new PrintMessage.Message(null, null);
 
         // Друкуємо повідомлення
-        printer.setMessage(msg1);// Користувач Іван відправив повідомлення: Привіт!
-        printer.print();
-        printer.setMessage(msg2); // Анонімний користувач відправив повідомлення: Привіт, світ!
-        printer.print();
-        printer.setMessage(msg3);
-        printer.print();
+        printer.print(msg1);// Користувач Іван відправив повідомлення: Привіт!
+        printer.print(msg2); // Анонімний користувач відправив повідомлення: Привіт, світ!
+        printer.print(msg3);
         }
 
     }
