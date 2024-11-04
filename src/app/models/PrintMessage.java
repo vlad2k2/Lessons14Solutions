@@ -5,9 +5,7 @@ import app.service.Printer;
 
 public class PrintMessage implements Printer {
 
-    private Message message;
 
-    
     // Внутрішній клас Message
     public static class Message {
         private String text;
